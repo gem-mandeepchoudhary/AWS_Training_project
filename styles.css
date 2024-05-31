@@ -1,0 +1,14 @@
+body{
+    background-color: #FCFFE0;
+    padding:5% 10%;
+}
+
+.add-button{
+   float: right;
+   margin: 0 0 2% 0; 
+}
+
+form{
+    margin:0 40% 0 10%;
+    padding:50px 0;
+}
