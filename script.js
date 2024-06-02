@@ -1,6 +1,6 @@
 // Define a function to fetch movies
 function getMovies() {
-    fetch('http://127.0.0.1:5000/movies') // Make a GET request to the /movies endpoint
+    fetch('http://127.0.0.1:80/movies') // Make a GET request to the /movies endpoint
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -50,7 +50,7 @@ form.addEventListener('submit', function(event) {
     console.log(postData);
 
     console.log(JSON.stringify(postData))
-    fetch('http://127.0.0.1:5000/movies', {
+    fetch('http://127.0.0.1:80/movies', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
